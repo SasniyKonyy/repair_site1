@@ -63,10 +63,10 @@ const services = [
 ]
 
 const steps = [
-  { title: 'Заявка', text: 'Оставляете номер или пишете в мессенджер.' },
+  { title: 'Заявка', text: 'Звонок или сообщение в Telegram.' },
   { title: 'Диагностика', text: 'Мастер приезжает и объясняет причину поломки.' },
   { title: 'Ремонт', text: 'Согласуем стоимость и делаем ремонт на месте.' },
-  { title: 'Гарантия', text: 'Вы получаете чек и гарантию на работу.' }
+  { title: 'Гарантия', text: 'Даем гарантию 1 год на работу.' }
 ]
 
 const reviews = [
@@ -124,7 +124,7 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow">Стиральные и посудомоечные машины</p>
             <h1>
-              Ремонт без суеты —
+              Ремонт по‑взрослому —
               <span> быстро, честно, с гарантией</span>
             </h1>
             <p className="lead">
@@ -132,7 +132,7 @@ function App() {
               и сразу озвучиваем стоимость.
             </p>
             <div className="hero-actions">
-              <a className="button primary" href="#contact">Заказать диагностику</a>
+              <a className="button primary" href="#contact">Вызвать мастера</a>
               <a className="button ghost" href="#services">Смотреть услуги</a>
             </div>
             <div className="hero-badges">
@@ -145,7 +145,7 @@ function App() {
                 <span>стоимость ремонта</span>
               </div>
               <div>
-                <strong>до 2 лет</strong>
+                <strong>1 год</strong>
                 <span>гарантия на работу</span>
               </div>
             </div>
@@ -303,6 +303,7 @@ function App() {
         </div>
         <div>
           <p>Официальный договор и гарантия.</p>
+          <p><a href="/review/">Оставить отзыв</a></p>
           <p>© 2026</p>
         </div>
       </footer>
