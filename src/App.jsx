@@ -303,7 +303,7 @@ function App() {
         </div>
         <div>
           <p>Официальный договор и гарантия.</p>
-          <p><a href="/review/">Оставить отзыв</a></p>
+          <p><a href={`${import.meta.env.BASE_URL}review/`}>Оставить отзыв</a></p>
           <p>© 2026</p>
         </div>
       </footer>
